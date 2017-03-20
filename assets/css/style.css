@@ -4,6 +4,54 @@
 html {
 	background-color: white;
 	height: 100%;
+	width: 100%;
+}
+
+header {
+
+}
+
+body {
+
+}
+
+p {
+
+}
+
+.navbar-brand {
+	float: left;
+}
+
+.navbar-nav {
+	float: righ;
+	text-decoration: none;
+	text-orientation: a
+}
+
+.profile-picture {
+	border-radius: 29%;
+	border-style: hidden;
+	border-width: 5px;
+	float: left;
+	height: 40%;
+	padding: 10px;
+	position: relative;
+	width: 25%;
+}
+
+.line {
+	background-color: teal;
+	color: teal;
+	width: 100%;
+}
+
+
+
+
+/*html {
+	background-color: white;
+	height: 100%;
 	width: 1000px;
 	}
 
@@ -35,13 +83,13 @@ p {
 	text-indent: 2%;
 }
 
-
+*/
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*Header*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-header {
+/*header {
 	background-color: red;
 	border-color: #cccccc;
 	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
@@ -53,7 +101,7 @@ header {
 }
 
 .name {
-	background-color: #4aaaa5; /* Teal*/
+	background-color: #4aaaa5; 
 	color: white;
 	display: block;
 	float: left;
@@ -63,11 +111,11 @@ header {
 	padding-top: 1%;
 	text-align: center;
 	width: 20%;
-}
+}*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*Navigation*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.navbar {
+/*.navbar {
 	display: block;
 	float: right;
 	height: 10%;
@@ -80,23 +128,23 @@ header {
 	font-size: 14px;
 	text-decoration: none;
 }
-
+*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*Main Content*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.main {
+/*.main {
 	background-image: url('https://c1.staticflickr.com/3/2912/32591985983_a04803fa85_h.jpg');
 	background-size: contain;
 	margin-top: -8px;
 	padding-top: 3%;
-}
+}*/
 
 
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*Contact*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.connect {
+/*.connect {
 	background-color: rgba(135, 206, 250);
 	background-color: rgba(135,206,250,.3);
 	border-radius: 8%;
@@ -121,11 +169,11 @@ header {
 	color: rgb(255, 117, 51);
 	color: rgba(255, 117, 51, 1);
 	padding: 8px;
-}
+}*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*Footer*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-footer {
+/*footer {
 	background-color: #666666;
 	clear: both;
 	color: #D5D5D5;
@@ -145,14 +193,14 @@ footer {
 	clear: both;
 	color: #4aaaa5;
 }
-
+*/
 /*************************************************************************************************/
 /*Homepage*/
 /*************************************************************************************************/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*About*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.about-me {
+/*.about-me {
 	background-color: rgb(255, 0, 102);
 	background-color: rgba(255, 0, 102, .1);
 	border-color: green;
@@ -173,7 +221,7 @@ footer {
 	padding: 10px;
 	position: relative;
 	width: 25%;
-}
+}*/
 
 /*************************************************************************************************/
 /*Portfolio Page*/
@@ -181,7 +229,7 @@ footer {
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*Gallery*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-gallery-left {
+/*gallery-left {
 	float: left;
 	height: 200px;
 	width: 200px;
@@ -191,7 +239,7 @@ gallery-right {
 	float: right;
 	height: 200px
 	width: 200px;
-}
+}*/
 
 /*************************************************************************************************/
 /*Contact Page*/
@@ -199,6 +247,7 @@ gallery-right {
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*Contact Form*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.contact-form {
+/*.contact-form {
 	text-align: left;
 }
+*/
