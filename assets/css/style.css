@@ -16,7 +16,7 @@ body {
 }
 
 p {
-
+text-indent: 10px;
 }
 
 
@@ -39,6 +39,7 @@ p {
 	background-image: url('../images/background1.jpg');
 	background-size: contain;
 	margin: auto;
+	width: 100%;
 }
 
 .profile-picture {
@@ -55,9 +56,9 @@ p {
 	background: rgb(156, 22, 14);
 	background: rgba(156, 22, 14, .5);
 	border-color: black;
+	border-radius: 5%;
 	border-style: solid;
 	border-width: 3px;
-	border-radius: 5%;
 	float: none;
 	margin: 1% 0 1% 1%;
 }
@@ -66,9 +67,9 @@ p {
 	background: rgb(157, 24, 42);
 	background: rgba(157, 24, 42, .5);
 	border-color: black;
+	border-radius: 5%;
 	border-style: solid;
 	border-width: 2px;
-	border-radius: 5%;
 	float: none;
 	margin: 1% 0 1% 1%;
 	padding: 1%;
@@ -78,16 +79,21 @@ p {
 	background: rgb(36, 16 74);
 	background: rgba(36, 16, 74, .5);
 	border-color: black;
+	border-radius: 5%;
 	border-style: solid;
 	border-width: 2px;
-	border-radius: 5%;
 	float: none;
 	margin: 1% 0 1% 1%;
 	padding: 1%;
 }
 
+form {
+	width: 100%;
+}
+
 .connect {
-	background-color: rgba(64, 78, 98, .5);
+	background: rgb(64, 78, 98);
+	background: rgba(64, 78, 98, .5);
 	border-color: black;
 	border-radius: 5%;
 	border-style: solid;
@@ -117,10 +123,10 @@ p {
 
 footer {
 	background-color: #666666;
+	display: inline;
 	font-size: 10px;
-	padding: 2%;
+	padding: 25px;
 	text-align: center;
-	width: 100%;
 }
 
 .wrapper {
