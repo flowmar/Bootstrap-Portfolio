@@ -1,7 +1,66 @@
-/*************************************************************************************************/
-/*Main Structure*/
-/*************************************************************************************************/
 html {
+  background-color: slategrey;
+  margin: 0;
+}
+
+body {
+  background-color: #410141;
+}
+
+hr {
+  color: black;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+  text-shadow: 0.03rem 0.03rem 0.02rem black, -0.02rem -0.02rem 0.02rem white;
+  color: darkmagenta;
+}
+
+.btn:hover {
+  border: 1.5px solid white;
+}
+
+.p-2 {
+  text-indent: 2rem;
+}
+
+.title {
+  text-shadow: 0.03rem 0.03rem 0.02rem black, 0.04rem 0.05rem 0.06rem white;
+}
+
+.fa-github-square {
+  color: black;
+  text-shadow: 0.03rem 0.03rem 0.01rem black, 0.04rem 0.05rem 0.06rem white;
+}
+
+.fa-linkedin-square {
+  color: rgb(0, 119, 181);
+  text-shadow: 0.03rem 0.03rem 0.01rem black, 0.04rem 0.05rem 0.06rem white;
+}
+
+.fa-stack-overflow {
+  color: orange;
+  text-shadow: 0.03rem 0.03rem 0.01rem black, 0.04rem 0.05rem 0.06rem white;
+}
+
+.box {
+  -webkit-box-shadow: 0 0 0.6rem 0rem slategrey, 0 0 0.7rem 0.05rem white;
+  box-shadow: 0 0 0.4rem 0rem slategrey, 0 0 0.2rem 0rem white;
+  border: 0.04rem solid black;
+}
+
+#connect.card {
+  text-shadow: 0.03rem 0.03rem 0.01rem black, 0.04rem 0.05rem 0.06rem white;
+}
+
+#name {
+  background-color: teal;
+}
+
+/* html
 	background-color: silver;
 	height: 100%;
 	width: 100%;
@@ -9,20 +68,17 @@ html {
 
 header {
 	width: 100%;
-	}
+}
 
 body {
 	background: black;
 }
 
 p {
-text-indent: 10px;
+	text-indent: 10px;
 }
 
-/*************************************************************************************************/
-/*Navigation*/
-/*************************************************************************************************/
-.name{
+.name {
 	margin: auto;
 	padding-left: 1%;
 	vertical-align: middle;
@@ -36,10 +92,6 @@ text-indent: 10px;
 	float: left;
 }
 
-/*************************************************************************************************/
-/*Main Page Content*/
-/*************************************************************************************************/
-
 .main {
 	background-image: url('../images/background1.jpg');
 	background-size: contain;
@@ -47,9 +99,6 @@ text-indent: 10px;
 	width: 100%;
 }
 
-/*************************************************************************************************/
-/*Home*/
-/*************************************************************************************************/
 .profile-picture {
 	border-radius: 29%;
 	border-style: hidden;
@@ -62,7 +111,7 @@ text-indent: 10px;
 
 .home-content {
 	background: rgb(156, 22, 14);
-	background: rgba(156, 22, 14, .5);
+	background: rgba(156, 22, 14, 0.5);
 	border-color: black;
 	border-radius: 5%;
 	border-style: solid;
@@ -71,12 +120,9 @@ text-indent: 10px;
 	margin: 1% 0 1% 1%;
 }
 
-/*************************************************************************************************/
-/*Portfolio*/
-/*************************************************************************************************/
 .portfolio-content {
 	background: rgb(157, 24, 42);
-	background: rgba(157, 24, 42, .5);
+	background: rgba(157, 24, 42, 0.5);
 	border-color: black;
 	border-radius: 5%;
 	border-style: solid;
@@ -86,12 +132,9 @@ text-indent: 10px;
 	padding: 1%;
 }
 
-/*************************************************************************************************/
-/*Contact*/
-/*************************************************************************************************/
 .contact-content {
 	background: rgb(36, 16 74);
-	background: rgba(36, 16, 74, .5);
+	background: rgba(36, 16, 74, 0.5);
 	border-color: black;
 	border-radius: 5%;
 	border-style: solid;
@@ -105,12 +148,9 @@ form {
 	width: 100%;
 }
 
-/*************************************************************************************************/
-/*Connect*/
-/*************************************************************************************************/
 .connect {
 	background: rgb(64, 78, 98);
-	background: rgba(64, 78, 98, .5);
+	background: rgba(64, 78, 98, 0.5);
 	border-color: black;
 	border-radius: 5%;
 	border-style: solid;
@@ -119,22 +159,6 @@ form {
 	margin: 1% 1% 0 1%;
 }
 
-.fa-github-square {
-	color: black;
-}
-
-.fa-linkedin-square {
-	color: rgb(0,119, 181);
-
-}
-
-.fa-stack-overflow {
-	color: orange;
-}
-
-/*************************************************************************************************/
-/*Footer*/
-/*************************************************************************************************/
 .line {
 	background-color: teal;
 	color: teal;
@@ -148,13 +172,6 @@ footer {
 	padding: 25px;
 	text-align: center;
 }
-
-/*************************************************************************************************/
-/*Miscellaneous*/
-/*************************************************************************************************/
-.wrapper {
-		width: 100%;
-	}
 
 .gallery-left {
 	border-color: black;
@@ -170,4 +187,4 @@ footer {
 	border-style: solid;
 	border-width: 1px;
 	float: right;
-}
+} */
